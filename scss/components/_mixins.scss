@@ -3,7 +3,7 @@
 //Gradient mixin
 
 @mixin gradient {
-    background: linear-gradient(to right, rgba($primary, 0.5), rgba($secondary, 0.95));
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
 
 //Center absolute
