@@ -10792,6 +10792,10 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -10915,14 +10919,14 @@ textarea.form-control-lg {
     font-size: 1.2rem;
   }
 }
-.contact-box__info--subtitle {
-  color: #dee2e6;
+.contact-box__info--subtittle {
+  color: #adb5bd;
   text-decoration: none;
   font-size: 1rem;
 }
 @media (min-width: 576px) {
-  .contact-box__info--subtitle {
-    font-size: 1.4rem;
+  .contact-box__info--subtittle {
+    font-size: 1.2rem;
   }
 }
 
@@ -10933,6 +10937,56 @@ textarea.form-control-lg {
   font-size: 1.8rem;
   margin-left: 1rem;
   color: white;
+}
+
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: white;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #6f42c1;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copy {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom__copy a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom__copy a:hover {
+  color: #6f42c1;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.9rem;
+  bottom: 1.9rem;
+  z-index: 9999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .get-started {
